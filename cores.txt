@@ -1,2 +1,4 @@
-Cores:
+Cores do site:
+
+rgb(0, 128, 255)   ---   Azul do header
 
