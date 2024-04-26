@@ -79,7 +79,7 @@ div{
      text-align: justify;
      padding: 25px;
      font-size: 25px;
-     color: rgb(0, 128, 255);
+     color: #3084B4;
  }
  
  .texto-introdução{
@@ -111,16 +111,22 @@ div{
 
  iframe{
     border-radius: 25px;
+    transition: 0.3s;
+ }
+
+ iframe:hover{
+    width: 600px;
+    height: 364px;
  }
  
  .titulo-conteudo{
  
      padding: 25px;
      font-size: 25px;
-     color: rgb(0, 128, 255);
+     color:  #3084B4;
  }
  span{
-     color:  rgb(0, 128, 255);
+     color: #074A71;
  }
  .texto-conteudo{
      text-align: justify;
@@ -130,7 +136,7 @@ div{
  /* end */
 /* roda pé */
 footer {
-    background-color: rgb(48,132,180);
+    background-color: #3084B4;
     text-align: center;
     padding: 0;
 }
@@ -152,3 +158,4 @@ footer p {
     font-size: 14px;
     padding: 10px;
 }
+/* end */
