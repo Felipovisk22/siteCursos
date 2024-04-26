@@ -1,21 +1,70 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* cabeçalho */
+body {
+    background-color: rgb(240,236,236);
+}
 
+.header-div {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 12px;
+    margin: 10px 30px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+header div img {
+    width: 120px;
+    margin: 10px 30px;
+}
+
+nav {
+    background-color: rgb(48,132,180);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item{
+    font-size: 7.5px;
+    background-color: rgb(48,132,180);
+    width: 20vw;
+    height: 4vw;
+    align-content: center;
+    color: white;
+    transition: 0.2s;
+}
+
+.nav-item:hover{
+    background-color: rgb(7, 74, 113)
+}
+/* end */
 /* tela inical */
 div{
    text-align: center;
 }
 img{
     width: 100%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 /* end */
 /* introdução */
 .borda{
     border-radius: 25px;
     background-color: rgba(217, 217, 217, 0.856);
+    margin: 50px;
 }
 .titulo-introdução{
     text-align: center;
@@ -24,6 +73,34 @@ img{
 .texto-introdução{
     text-align: justify;
     padding: 25px;
-    
+}
+/* end */
+
+
+
+
+/* roda pé */
+footer {
+    background-color: rgb(48,132,180);
+    text-align: center;
+    padding: 0;
+}
+
+footer p {
+    color: white;
+    font-size: 7px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.contato {
+    background-color: rgb(48,132,180);
+    padding: 10px;
+}
+.copyright {
+    background-color: #074a71;
+    padding-top: 5px;
+    font-size: 7px;
+    padding: 5px;
 }
 /* end */
