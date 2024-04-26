@@ -4,7 +4,7 @@
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* cabeçalho */
+
 body {
     background-color: rgb(240,236,236);
 }
@@ -17,15 +17,15 @@ body {
 }
 
 header h1 {
-    font-size: 12px;
-    margin: 10px 30px;
+    font-size: 24px;
+    margin: 20px 60px;
     letter-spacing: 1px;
     font-weight: 300;
 }
 
 header div img {
-    width: 120px;
-    margin: 10px 30px;
+    width: 240px;
+    margin: 20px 60px;
 }
 
 nav {
@@ -37,7 +37,7 @@ nav {
 }
 
 .nav-item{
-    font-size: 7.5px;
+    font-size: 15px;
     background-color: rgb(48,132,180);
     width: 20vw;
     height: 4vw;
@@ -50,6 +50,7 @@ nav {
     background-color: rgb(7, 74, 113)
 }
 /* end */
+
 /* tela inical */
 div{
    text-align: center;
@@ -60,6 +61,7 @@ img{
     border-bottom-right-radius: 25px;
 }
 /* end */
+
 /* introdução */
 .borda{
     border-radius: 25px;
@@ -88,19 +90,18 @@ footer {
 
 footer p {
     color: white;
-    font-size: 7px;
+    font-size: 14px;
     font-weight: lighter;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .contato {
     background-color: rgb(48,132,180);
-    padding: 10px;
+    padding: 20px;
 }
 .copyright {
     background-color: #074a71;
-    padding-top: 5px;
-    font-size: 7px;
-    padding: 5px;
+    padding-top: 10px;
+    font-size: 14px;
+    padding: 10px;
 }
-/* end */
