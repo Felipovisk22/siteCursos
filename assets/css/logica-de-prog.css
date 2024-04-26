@@ -17,15 +17,15 @@ body {
 }
 
 header h1 {
-    font-size: 24px;
-    margin: 20px 60px;
+    font-size: 12px;
+    margin: 10px 30px;
     letter-spacing: 1px;
     font-weight: 300;
 }
 
 header div img {
-    width: 240px;
-    margin: 20px 60px;
+    width: 120px;
+    margin: 10px 30px;
 }
 
 nav {
@@ -37,7 +37,7 @@ nav {
 }
 
 .nav-item{
-    font-size: 15px;
+    font-size: 7.5px;
     background-color: rgb(48,132,180);
     width: 20vw;
     height: 4vw;
@@ -50,42 +50,6 @@ nav {
     background-color: rgb(7, 74, 113)
 }
 
-main {
-    text-align: center;
-}
-
-main div {
-    margin: 40px 0;
-}
-
-main img {
-    width: 70vw;
-    border-radius: 10px 10px 0px 0px;
-}
-
-main div p {
-    background-color: white;
-    font-size: 14px;
-    text-align: justify;
-    width: calc(70vw - 64px );
-    margin: -4px auto;
-    padding: 16px 32px;
-    padding-top: 0px;
-    letter-spacing: 2px;
-    border-radius: 0 0 10px 10px;
-}
-
-main div h2 {
-    background-color: white;
-    color: rgb(48,132,180);
-    font-size: 24px;
-    width: calc(70vw - 64px );
-    margin: -8px auto;
-    padding: 16px 32px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-align: left;
-}
 
 footer {
     background-color: rgb(48,132,180);
@@ -95,18 +59,18 @@ footer {
 
 footer p {
     color: white;
-    font-size: 14px;
+    font-size: 7px;
     font-weight: lighter;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .contato {
     background-color: rgb(48,132,180);
-    padding: 20px;
+    padding: 10px;
 }
 .copyright {
     background-color: #074a71;
-    padding-top: 10px;
-    font-size: 14px;
-    padding: 10px;
+    padding-top: 5px;
+    font-size: 7px;
+    padding: 5px;
 }
