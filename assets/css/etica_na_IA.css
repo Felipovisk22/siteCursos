@@ -49,44 +49,39 @@ nav {
 .nav-item:hover{
     background-color: rgb(7, 74, 113)
 }
+/* end */
 
-main {
+/* tela inical */
+div{
+   text-align: center;
+}
+img{
+    width: 100%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+/* end */
+
+/* introdução */
+.borda{
+    border-radius: 25px;
+    background-color: rgba(217, 217, 217, 0.856);
+    margin: 50px;
+}
+.titulo-introdução{
     text-align: center;
 }
 
-main div {
-    margin: 40px 0;
-}
-
-main img {
-    width: 70vw;
-    border-radius: 10px 10px 0px 0px;
-}
-
-main div p {
-    background-color: white;
-    font-size: 14px;
+.texto-introdução{
     text-align: justify;
-    width: calc(70vw - 64px );
-    margin: -4px auto;
-    padding: 16px 32px;
-    padding-top: 0px;
-    letter-spacing: 2px;
-    border-radius: 0 0 10px 10px;
+    padding: 25px;
 }
+/* end */
 
-main div h2 {
-    background-color: white;
-    color: rgb(48,132,180);
-    font-size: 24px;
-    width: calc(70vw - 64px );
-    margin: -8px auto;
-    padding: 16px 32px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-align: left;
-}
 
+
+
+/* roda pé */
 footer {
     background-color: rgb(48,132,180);
     text-align: center;

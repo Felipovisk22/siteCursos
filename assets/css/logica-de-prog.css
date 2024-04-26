@@ -50,42 +50,6 @@ nav {
     background-color: rgb(7, 74, 113)
 }
 
-main {
-    text-align: center;
-}
-
-main div {
-    margin: 40px 0;
-}
-
-main img {
-    width: 70vw;
-    border-radius: 10px 10px 0px 0px;
-}
-
-main div p {
-    background-color: white;
-    font-size: 14px;
-    text-align: justify;
-    width: calc(70vw - 64px );
-    margin: -4px auto;
-    padding: 16px 32px;
-    padding-top: 0px;
-    letter-spacing: 2px;
-    border-radius: 0 0 10px 10px;
-}
-
-main div h2 {
-    background-color: white;
-    color: rgb(48,132,180);
-    font-size: 24px;
-    width: calc(70vw - 64px );
-    margin: -8px auto;
-    padding: 16px 32px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-align: left;
-}
 
 footer {
     background-color: rgb(48,132,180);
