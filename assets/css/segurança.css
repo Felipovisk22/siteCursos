@@ -31,13 +31,33 @@ header div img {
 .imagem-do-titulo {
     width: 100%;
 }
+
 .título {
     text-align: center;
     font-size: 40px;
 }
 
+.titulo-introdução{
+    text-align: justify;
+    padding: 25px;
+    font-size: 25px;
+    color: rgb(0, 128, 255);
+}
 
+.titulo-introdução1{
+    text-align: center;
+    padding: 25px;
+    font-size: 35px;
+    color: rgb(0, 128, 255);
+}
 
+.texto-introdução{
+    text-align: justify;
+    font-size: 18px;
+    padding: 25px;
+    color: rgb(0, 128, 255);
+    color: #074a71;
+}
 
 nav {
     background-color: rgb(48,132,180);
@@ -60,9 +80,36 @@ nav {
 .nav-item:hover{
     background-color: rgb(7, 74, 113)
 }
-.centraliza iframe{
+
+.borda{
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    margin: 100px auto;
+    box-shadow: 3px 5px 2px black;
+    padding: 30px;
+    width: 800px;
+}
+
+
+.italico1 {
+    font-style: italic;
+}
+
+iframe{
+    
     margin: 0 auto;
     display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 70px;
+    transition: 0.3s;
+}
+
+iframe:hover {
+
+    width: 600px;
+    height: 364px;
 }
 
 footer {
