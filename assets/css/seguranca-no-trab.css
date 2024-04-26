@@ -43,7 +43,7 @@ nav {
     height: 4vw;
     align-content: center;
     color: white;
-    transition: 0.2s;
+   transition:  0.2s;
 }
 
 .nav-item:hover{
@@ -72,6 +72,12 @@ nav {
 .vid {
     margin: 0 auto;
     display: block;
+    width: 500px;
+    transition:  0.6s;
+}
+
+.vid:hover {
+    width: 600px;
 }
     
 .img2 {
