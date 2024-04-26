@@ -105,6 +105,12 @@ div{
      background-color: white;
      padding-top: 50px;
      padding-bottom: 50px;
+     border-top-left-radius:25px;
+     border-top-right-radius: 25px;
+ }
+
+ iframe{
+    border-radius: 25px;
  }
  
  .titulo-conteudo{
