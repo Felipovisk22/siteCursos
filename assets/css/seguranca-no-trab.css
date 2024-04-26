@@ -43,7 +43,7 @@ nav {
     height: 4vw;
     align-content: center;
     color: white;
-   transition:  0.2s;
+    transition:  0.2s;
 }
 
 .nav-item:hover{
@@ -55,8 +55,6 @@ nav {
     display: flex;
     margin: 10px;
     margin-bottom: 50px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
 }
 
 .primeira {
@@ -65,8 +63,6 @@ nav {
 .img1 {
     width: 100%;
     margin-bottom: 50px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
 }
 
 .vid {
