@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* tela inical */
+div{
+   text-align: center;
+}
+img{
+    width: 100%;
+}
+/* end */
+/* introdução */
+.borda{
+    border-radius: 25px;
+    background-color: rgba(217, 217, 217, 0.856);
+}
+.titulo-introdução{
+    text-align: center;
+}
+
+.texto-introdução{
+    text-align: justify;
+    padding: 25px;
+    
+}
+/* end */
