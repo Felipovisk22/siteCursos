@@ -53,37 +53,162 @@ nav {
 
 /* tela inical */
 div{
+<<<<<<< Updated upstream
+    text-align: center;
+ }
+ .img{
+     width: 100%;
+     border-bottom-left-radius: 25px;
+     border-bottom-right-radius: 25px;
+     margin-bottom: 50px;
+ }
+ /* end */
+ 
+ /* introdução */
+ .borda{
+     text-align: center;
+     border-radius: 10px;
+     background-color: white;
+     margin: 100px auto;
+     box-shadow: 3px 5px 2px black;
+     padding: 30px;
+     width: 800px;
+ 
+ }
+ 
+ .titulo-introdução{
+     text-align: justify;
+     padding: 25px;
+     font-size: 25px;
+     color: #3084B4;
+ }
+ 
+ .texto-introdução{
+     text-align: justify;
+     font-size: 18px;
+     padding: 25px;
+ 
+ }
+ /* end */
+ 
+ /* conteudo */
+ .borda-conteudo{
+     text-align: center;
+     border-radius: 10px;
+     background-color: #F0ECEC;
+     margin: 100px auto;
+     box-shadow: 3px 5px 2px black;
+     padding: 30px;
+     width: 800px;
+     margin-bottom: 0px;
+ }
+ .fundo{
+     background-color: white;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     border-top-left-radius:25px;
+     border-top-right-radius: 25px;
+ }
+
+ iframe{
+    border-radius: 25px;
+    transition: 0.3s;
+ }
+=======
    text-align: center;
 }
-img{
+.img{
     width: 100%;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    margin-bottom: 50px;
 }
 /* end */
 
 /* introdução */
 .borda{
-    border-radius: 25px;
-    background-color: rgba(217, 217, 217, 0.856);
-    margin: 50px;
-}
-.titulo-introdução{
     text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    margin: 100px auto;
+    box-shadow: 3px 5px 2px black;
+    padding: 30px;
+    width: 800px;
+
+}
+
+.titulo-introdução{
+    text-align: justify;
+    padding: 25px;
+    font-size: 25px;
+    color: rgb(0, 128, 255);
 }
 
 .texto-introdução{
     text-align: justify;
+    font-size: 18px;
     padding: 25px;
+
 }
 /* end */
 
+/* conteudo */
+.borda-conteudo{
+    text-align: center;
+    border-radius: 10px;
+    background-color: #F0ECEC;
+    margin: 100px auto;
+    box-shadow: 3px 5px 2px black;
+    padding: 30px;
+    width: 800px;
+    margin-bottom: 0px;
+}
+.fundo{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
+.titulo-conteudo{
 
+    padding: 25px;
+    font-size: 25px;
+    color: rgb(0, 128, 255);
+}
+span{
+    color:  rgb(0, 128, 255);
+}
+.texto-conteudo{
+    text-align: justify;
+    font-size: 18px;
+    padding: 25px;
+}
+/* end */
+>>>>>>> Stashed changes
 
+ iframe:hover{
+    width: 600px;
+    height: 364px;
+ }
+ 
+ .titulo-conteudo{
+ 
+     padding: 25px;
+     font-size: 25px;
+     color:  #3084B4;
+ }
+ span{
+     color: #074A71;
+ }
+ .texto-conteudo{
+     text-align: justify;
+     font-size: 18px;
+     padding: 25px;
+ }
+ /* end */
 /* roda pé */
 footer {
-    background-color: rgb(48,132,180);
+    background-color: #3084B4;
     text-align: center;
     padding: 0;
 }
@@ -105,3 +230,4 @@ footer p {
     font-size: 14px;
     padding: 10px;
 }
+/* end */
